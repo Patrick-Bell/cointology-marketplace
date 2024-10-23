@@ -1,0 +1,127 @@
+@media screen and (max-width: 900px) {
+    .sidebar{
+        display: none;
+    }
+    .table-id{
+        display: none !important;
+    }
+    .search-bar {
+        display: flex; /* Use flexbox for layout */
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align items to the start */
+        margin-bottom: 16px; /* Optional: add some spacing between search bar and table */
+    }
+    
+    .search-input {
+        width: 100%; /* Make the search input take full width */
+        margin-bottom: 8px; /* Optional: add spacing between the input and product count */
+    }
+}
+
+
+.inventory-container {
+    width: 100%; /* Full width for the inventory container */
+}
+
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px; /* Space below the search bar */
+}
+
+.search-input {
+    flex-grow: 1; /* Make search input take remaining space */
+    margin-right: 16px; /* Space to the right of the input */
+}
+
+.table-container {
+    max-height: 500px; /* Limit the height of the table */
+    overflow-y: auto; /* Allow vertical scrolling */
+    overflow-x: auto; /* Allow horizontal scrolling */
+    width: 100%; /* Full width */
+}
+
+.table {
+    min-width: 600px; /* Minimum width for the table */
+}
+
+.product-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px; /* Rounded corners */
+}
+
+.text-center {
+    text-align: center; /* Center text */
+}
+
+/* Stock color classes */
+.out-of-stock {
+    color: black; /* Out of stock */
+}
+
+.low-stock {
+    color: red; /* Low stock */
+}
+
+.medium-stock {
+    color: orange; /* Medium stock */
+}
+
+.in-stock {
+    color: green; /* In stock */
+}
+
+
+
+
+
+
+.footer-list{
+    color: white;
+    text-decoration: none !important;
+    text-transform: none;
+    list-style: none;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.footer-list:hover{
+    transform: translatex(5px);
+}
+
+
+/* for the nav bar */
+.nav{
+    text-decoration: none;
+    color: black;
+}
+
+.start-shopping{
+    text-decoration: none;
+    color: black;
+}
+
+.start-shopping:hover{
+    color: white;
+}
+
+
+
+
+.pulse {
+    animation: pulse-animation 2s infinite;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  @keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+      box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+  }

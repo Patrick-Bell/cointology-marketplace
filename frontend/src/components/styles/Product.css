@@ -1,0 +1,21 @@
+/* styles.css */
+@media (max-width: 720px) {
+    .sidebar {
+      display: none; /* Hide the sidebar */
+    }
+    .product-layout{
+        justify-content: center;
+    }
+    .filter-sort-icons{
+        display: flex;
+    }
+    .main-content {
+      margin-left: 0; /* Adjust margin for main content */
+    }
+  }
+
+
+  .text-center{
+    text-align: center;
+  }
+  
