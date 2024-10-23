@@ -44,7 +44,7 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 console.log('Uploads served from:', path.join(__dirname, 'uploads'));
 
 const uri = process.env.MONGO_URI;
-mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(uri)
     .then(() => console.log('Connected to MongoDB'))
     .catch((error) => console.error('Connection error', error));
 
