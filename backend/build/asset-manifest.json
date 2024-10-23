@@ -1,15 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.d7510be7.css",
-    "main.js": "/static/js/main.16f23433.js",
-    "static/js/453.6a3883ca.chunk.js": "/static/js/453.6a3883ca.chunk.js",
+    "main.css": "/static/css/main.9f8d2193.css",
+    "main.js": "/static/js/main.c595cc59.js",
+    "static/js/453.a2abc67f.chunk.js": "/static/js/453.a2abc67f.chunk.js",
+    "static/media/shipping-picture.png": "/static/media/shipping-picture.b1d24ee70db46d7c8900.png",
+    "static/media/background.png": "/static/media/background.8c05ba5c25743d6c84c0.png",
+    "static/media/faq.png": "/static/media/faq.5b0e841c02b946c18073.png",
+    "static/media/hero.webp": "/static/media/hero.99194fc2e732324e0778.webp",
+    "static/media/cointology-logo.png": "/static/media/cointology-logo.e54862898221bf6b9263.png",
+    "static/media/sell-coin-2.webp": "/static/media/sell-coin-2.0bad7715c90bac331275.webp",
+    "static/media/shipping-footer.webp": "/static/media/shipping-footer.3928115d2dfd22ec71bd.webp",
+    "static/media/visa.avif": "/static/media/visa.149601420a3931841053.avif",
+    "static/media/american-express.avif": "/static/media/american-express.f188c948c2dc016e22cb.avif",
+    "static/media/mastercard.avif": "/static/media/mastercard.2851991c0eed9645dd0c.avif",
+    "static/media/apple-pay.avif": "/static/media/apple-pay.d3e9ff3c8d2eba1fff3b.avif",
+    "static/media/klarna.avif": "/static/media/klarna.922444f1cff0cf4e16b1.avif",
     "index.html": "/index.html",
-    "main.d7510be7.css.map": "/static/css/main.d7510be7.css.map",
-    "main.16f23433.js.map": "/static/js/main.16f23433.js.map",
-    "453.6a3883ca.chunk.js.map": "/static/js/453.6a3883ca.chunk.js.map"
+    "main.9f8d2193.css.map": "/static/css/main.9f8d2193.css.map",
+    "main.c595cc59.js.map": "/static/js/main.c595cc59.js.map",
+    "453.a2abc67f.chunk.js.map": "/static/js/453.a2abc67f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7510be7.css",
-    "static/js/main.16f23433.js"
+    "static/css/main.9f8d2193.css",
+    "static/js/main.c595cc59.js"
   ]
 }
