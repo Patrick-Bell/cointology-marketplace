@@ -91,7 +91,7 @@ sx={{
             pagination={{ clickable: true, el: '.custom-pagination' }} // Enable clickable pagination
             navigation // Enable navigation buttons
             modules={[Navigation, Pagination]} // Register modules here
-            style={{ width: '100%', padding: '20px 0' }} // Max width for Swiper
+            style={{ width: '100%', padding: '20px 10px' }} // Max width for Swiper
             breakpoints={{
                 // Define breakpoints for different screen sizes
                 640: {

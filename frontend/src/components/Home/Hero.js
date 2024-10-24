@@ -36,7 +36,7 @@ function Hero() {
                     sx={{
                         position: 'absolute', // Position it over the image
                         top: '50%', // Center vertically
-                        left: '40px', // Align to the left with some padding
+                        left: { xs: '0px', sm: '40px'}, // Align to the left with some padding
                         transform: 'translateY(-50%)', // Adjust to truly center
                         color: 'white', // Change text color for readability
                         padding: '20px', // Add some padding for aesthetics
@@ -44,7 +44,7 @@ function Hero() {
                         borderRadius: '10px'
                     }}
                 >
-                    <Typography variant="h2" sx={{ fontWeight: '900' }}>COINTOLOGY</Typography>
+                    <Typography variant="h3" sx={{ fontWeight: '900', }}>COINTOLOGY</Typography>
                     <Typography variant="body1" sx={{ marginTop: '16px' }}>
                         Welcome to Cointology, a marketplace dedicated to the purchase of coins!
                     </Typography>
